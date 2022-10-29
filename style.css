@@ -1,0 +1,326 @@
+body {
+  background-color: #E2E6EB;
+  font-family: Space Grotesk;
+}
+
+.mainDiv{
+  display: flex;
+}
+
+.leftDiv{
+  margin-right: 66px;
+}
+
+.rightDiv{
+  flex: 1;
+  border-radius: 24px;
+} 
+
+.maintitle{
+  margin-top:5%;
+}
+
+.maintitle--h5{
+  display:inline;
+  font-weight: 600;
+  Size: 32px;
+  Line-height: 24px;
+  letter-spacing: 0.3 px;
+}
+
+.maintitle--button{
+  font-family: Space Grotesk;
+  background-color: #793EF5;
+  Width: 217px;
+  Height: 44px;
+  border-radius: 12px;
+  margin-left: 61%;
+  position: relative;
+  color: white;
+  /* Adjust these values accordingly */
+  top: -5px;
+  right: -10px;
+}
+
+.maintitle--button > span{
+  position: relative;
+ 
+  top: -3px;
+  right: -2px;
+
+}
+
+.maintitle--button > img{
+  width: 20px;
+  position: relative;
+  
+  top: 1px;
+  right: 8px; 
+}
+
+.main--tablediv{
+  margin-top: 4%;
+}
+
+th:first-of-type {
+  border-top-left-radius: 20px;
+}
+th:last-of-type {
+  border-top-right-radius: 20px;
+}
+tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 20px;
+}
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 20px;
+}
+
+.main--tablediv > table > tr > td{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main--tablediv > table > tr > th{
+  /* font-family: Space Grotesk; */
+  font-weight: 500;
+  Size: 14px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.header--tr{
+  background-color: #F6F5F9;
+}
+
+.header--tr > th{
+  padding: 16px 10px 16px 10px;
+}
+
+.header--tr > th > img{
+  width: 20px;
+  float: right;
+  padding-top: 1%;
+}
+
+.table--tr{
+  background-color: white;
+}
+
+.table--tr > td > h6{
+  color: #828282;
+  margin-top: -15%;
+}
+
+.td--h5{
+  font-size: 16px;
+  margin-left: 5%;
+}
+
+.td--h5-2,.td--h6 {
+  margin-left: 5%;
+}
+
+.td--num{
+  text-align: center;
+}
+
+.td--num > div{
+  background-color: #F0EFFD;
+  width: 94px;
+  height: 30px;
+  padding-top: 2.5%;
+  border-radius: 8px;
+  color: #793EF5;
+  margin-left: 15%;
+}
+
+.td--actions{
+  color: #F6F5F9;
+}
+
+.td--p{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  width: 200px;
+  color: #2F3031;
+  margin-top: -3%;
+  margin-left: 5%;
+  padding-bottom: 5%;
+}
+
+.th--img > img{
+  width: 190px;
+}
+
+.th--button > button > img{
+  width: 28px;
+  position: relative;
+}
+
+.middiv--rightdiv{
+  background-color:#FFFFFF;
+  border-radius: 16px;
+  Width: 1135px;
+  Height: 270px; 
+  margin-top: 2%;
+  display: flex;
+}
+
+.middiv--insights{
+  Background-color:#E2E6EB;
+  border-radius: 16px;
+  height: 245px;
+  width: 300px;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.middiv--insights > h5{
+  font-Weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 8%;
+}
+
+.middiv--insights > p{
+  font-Weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.middiv--headerdiv{
+  Background-color: #f2f2f2;
+  border-radius: 12px;
+  height: 48px;
+  width: 800px;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.middiv--headerdiv > button {
+  font-family: Space Grotesk;
+  background-color: snow;
+  Width: 125px;
+  Height: 32px;
+  border-radius: 8px;
+  margin-top: .8%;
+
+}
+
+.middiv--headerdiv > button > img{
+  width: 16.25px;
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 3px;
+  right: 5px;
+}
+
+.button1{
+  margin-left: 2.5%;
+}
+
+.button2{
+  margin-left: 2.5%;
+}
+
+.button3{
+  margin-left: 45%;
+}
+
+.middiv--headerdiv > img{
+  width: 789px;
+  height: 174px;
+  margin-top:3%;
+}
+
+
+.leftmenu--div{
+  background-color:#FFFFFF;
+  border-radius: 24px;
+  height: 1090px;
+  width: 229px;
+  justify-content: space-between;
+}
+
+.smallDiv{
+  Background-color:#E2E6EB;
+  border-radius: 16px;
+  height: 50px;
+  width: 50px;
+  margin-top:185%;
+}
+
+.imgLogo{
+  margin-left:15%;
+  margin-top:15%;
+  width: 160px;
+  height: 32px;
+}
+
+.menu_left{
+  Font-style: Regular;
+  line-height: 118%;
+  letter-spacing: 0.3px;
+  list-style: none;
+  margin-top:20%;
+}
+
+
+.menu_left > li{
+  padding: 5%;
+  margin-left: -5%;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.menu_left > li > button {
+  font-family: Space Grotesk;
+  background-color: snow;
+  border: none;
+  background: none;
+  padding: 2% 8% 5% 12%;
+}
+
+.menu_left > li > button:hover {
+  background-color: #F0EFFD;
+  color: #665FEF;
+  border-radius: 16px;
+  border: solid;
+  border-color: #665FEF;
+  
+}
+
+.menu_left > li > button > img{
+  width: 20px;
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 5px;
+  right: 8px;
+}
+
+.accountName{
+  Font-style: Regular;
+  line-height: 118%;
+  letter-spacing: 0.3px;
+  list-style: none;
+}
+
+.accountName > li{
+  margin-top:315%; 
+  margin-left:5%;
+}
+
+.accountName > li > img{
+  width: 50px;
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 15px;
+  right: 20px;
+}
