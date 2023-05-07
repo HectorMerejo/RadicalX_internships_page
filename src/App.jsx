@@ -1,22 +1,59 @@
 import { useState } from 'react'
 import LeftMenuBar from './components/LeftMenuBar'
 import Internship_insight from './components/Internship_insight'
-import MainTitle from './components/MainTitle'
 import InternshipStatistics from './components/InternshipStatistics'
+import Title from './components/MainTitle'
+import TopNavBar from './components/topNavBar'
+import Mid from './components/mid'
+import Tabs from './components/tabs'
 import '../App.css'
+import {Routes, Route} from 'react-router-dom';
 
-export default function App() {
+const MainPage = () => {
   return (
     <div className='mainDiv'>
       <div className='leftDiv'>
         <LeftMenuBar />
       </div>
       <div className='rightDiv'>
-        <MainTitle />
+        <Title />
         <Internship_insight />
         <InternshipStatistics />
       </div>
     </div>
-    
   )
 }
+
+const CreateInternshipPage = () => {
+  return(
+      <div className='mainDiv'>
+        <div className='topDiv'>
+          <TopNavBar />
+        </div>
+
+        <div className='middleDiv'>
+          <Mid />
+        </div>
+
+        <div className='botttomDiv'>
+          <Tabs />
+        </div>
+      </div>
+  )
+}
+
+ 
+export default function App() {
+  return (
+  <div>
+    <div className="maintitle">     
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path='/createInternshipPage' element={<CreateInternshipPage />} />
+      </Routes> 
+    </div>
+  </div> 
+  )
+}
+
+

@@ -9,23 +9,28 @@ body {
 
 .leftDiv{
   margin-right: 66px;
+  margin-top: -40px;
 }
 
 .rightDiv{
   flex: 1;
   border-radius: 24px;
+  margin-top: -40px;
 } 
 
 .maintitle{
   margin-top:5%;
 }
 
-.maintitle--h5{
+.maintitle--h1{
   display:inline;
   font-weight: 600;
   Size: 32px;
   Line-height: 24px;
   letter-spacing: 0.3 px;
+  position: relative;
+  top: -35px;
+  right: -10px;
 }
 
 .maintitle--button{
@@ -38,7 +43,7 @@ body {
   position: relative;
   color: white;
   /* Adjust these values accordingly */
-  top: -5px;
+  top: -35px;
   right: -10px;
 }
 
@@ -269,7 +274,6 @@ tr:last-of-type td:last-of-type {
   margin-top:20%;
 }
 
-
 .menu_left > li{
   padding: 5%;
   margin-left: -5%;
@@ -323,4 +327,68 @@ button {
   /* Adjust these values accordingly */
   top: 15px;
   right: 20px;
+}
+
+
+/* Add New Internship Page */
+
+.topnavbar--mainTitle{
+  width: 1450px;
+  height: 80px;
+  margin-left: 1.5%;
+  margin-top: -80px;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  display: flex;
+}
+
+.topnavbar--mainTitle--h1{
+  color: #1E1E1E;
+  font-size: 28px;
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 8px;
+  left: 575px; 
+}
+
+
+.backarrow{
+  width: 28px;
+  height: 28px;
+  position: relative;
+  bottom: 20px;
+  left: 35px;
+}
+
+.backArrow--title{
+  font-family: Space Grotesk;
+  font-size: 18px;
+  position: relative;
+  bottom: 28px;
+  left: 50px;
+}
+
+.nextarrow{
+  width: 28px;
+  height: 28px;
+  position: relative;
+  bottom: 55px;
+  left: 1400px;
+}
+
+.nextArrow--title{
+  font-family: Space Grotesk;
+  font-size: 18px;
+  position: relative;
+  bottom: 63px;
+  left: 1160px;
+}
+
+.mid--navbar{
+  width: 1450px;
+  height: 60px;
+  
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  display: flex;
 }
