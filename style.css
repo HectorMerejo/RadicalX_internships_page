@@ -49,7 +49,6 @@ body {
 
 .maintitle--button > span{
   position: relative;
- 
   top: -3px;
   right: -2px;
 
@@ -58,7 +57,6 @@ body {
 .maintitle--button > img{
   width: 20px;
   position: relative;
-  
   top: 1px;
   right: 8px; 
 }
@@ -351,7 +349,6 @@ button {
   left: 575px; 
 }
 
-
 .backarrow{
   width: 28px;
   height: 28px;
@@ -385,10 +382,115 @@ button {
 }
 
 .mid--navbar{
-  width: 1450px;
+  width: 1445px;
   height: 60px;
-  
-  border-radius: 30px;
-  background-color: #FFFFFF;
-  display: flex;
+  border: 2px solid #969696;
+  border-radius: 25px;
+  position: relative;
+  left: 25px;
 }
+
+.midBar--titleimg1{
+  font-family: Space Grotesk;
+  font-size: 18px;
+  position: relative;
+  bottom: -20px;
+  left: 100px;
+  height: 20px;
+}
+
+.midBar--titleimg2{
+  font-family: Space Grotesk;
+  font-size: 18px;
+  position: relative;
+  bottom: 8px;
+  left: 510px;
+  height: 22px;
+}
+
+.midBar--titleimg3{
+  font-family: Space Grotesk;
+  font-size: 18px;
+  position: relative;
+  bottom: 34px;
+  left: 900px;
+  height: 22px;
+}
+
+.midBar--titleimg4{
+  font-family: Space Grotesk;
+  font-size: 18px;
+  position: relative;
+  bottom: 60px;
+  left: 1215px;
+  height: 22px;
+}
+
+.tabs_menu{
+  Font-style: Regular;
+  /* line-height: 10%; */
+  letter-spacing: 0.3px;
+  list-style: none;
+  margin-top:5%;
+}
+
+.tabs_menu > li > div {
+  width: 606px;
+  height: 60px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  position: relative;
+  bottom: 50px;
+  left: 60px;
+  padding-right: 20px;
+}
+
+.tabs_menu > li > img {
+  height: 30px;
+}
+
+.tabs_menu > li > div > img {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  position: relative;
+  height: 22px;
+  /* left: 500px; */
+  float: right;
+  bottom: -17px;
+}
+.tabs_menu > li > div > button {
+  position: relative;
+  height: 22px;
+  left: 10px;
+  bottom: -18px;
+}
+
+.tabs--addmore{
+  width: 620px;
+  height: 50px;
+  border-radius: 15px;
+  border-style: dashed;
+  border-color: #793EF5;
+  position: relative;
+  /* center the container horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* remove left and bottom positioning */
+  left: 100px;
+  bottom: 25px;
+  overflow: hidden;
+}
+
+.tabs--addmore > img {
+  width: 3%; /* reduce the width of the image */
+  max-width: 50px; /* limit the maximum width of the image */
+  margin-right: -5px; /* add some space between the image and button */
+
+}
+
+.tabs--addmore > button {
+  color:  #793EF5;
+  width: 15%; /* set a width for the button element */
+}
+

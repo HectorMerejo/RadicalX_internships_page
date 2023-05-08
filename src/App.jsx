@@ -26,18 +26,10 @@ const MainPage = () => {
 
 const CreateInternshipPage = () => {
   return(
-      <div className='mainDiv'>
-        <div className='topDiv'>
-          <TopNavBar />
-        </div>
-
-        <div className='middleDiv'>
-          <Mid />
-        </div>
-
-        <div className='botttomDiv'>
-          <Tabs />
-        </div>
+      <div>
+        <TopNavBar />
+        <Mid />
+        <Tabs />
       </div>
   )
 }
